@@ -1,5 +1,7 @@
 terraform {
-  cloud {}
+#  cloud {
+#    workspaces {}
+#  }
 
   required_providers {
     aws = {
